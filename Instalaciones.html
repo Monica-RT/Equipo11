@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><!-- lenguaje del documento--> 
+<head>
+    <meta charset="UTF-8"><!--Formato de codificacion de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Formato para sitio responsivo -->
+    <title>Instalciones</title>
+    <link rel="stylesheet" type="text/css" href="instalaciones.css"><!--Archivo de estilo CSS -->
+</head>
+<body>
+    <img id= "logo" class="logo" src="img/logo.png">   
+   
+    <div class="row"> <!--contenedor principal-->
+        <div class="menu_escritorio"> <!--Menu para pantallas grandes-->
+            <nav>
+                <ul class="menu"> 
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="RanchoFortuna.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="Productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="Instalaciones.html">Instalaciones</a>
+                    </li>
+                    <li>
+                        <a href="Contacto.html">Contáctanos</a>
+                    </li>
+            
+                </ul>
+            </nav>
+            
+        </div> 
+        <!--Menu para dispositivos moviles-->
+        <div class="menu-celular">
+            <div class="menu-open-close">
+                <!--Seccion que contiene el boton de menu-->
+                <div class="header">
+                    <!--Se añade un hipervinculo para que el menu se despliegue al hacer click-->
+                    <a href="#" id="buttonOpenCloseMenu">
+                        <!--Se añade un gráfico vectorial para que el boton de menu no se pixelee--> 
+                        <img src="img/menu-icono.png" alt="" width="24px" >
+                    </a>
+                </div>
+                <div id="menu-mobile-items" class="menu-mobile-closed">
+                    <ul >
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="RanchoFortuna.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="Productos.html">Productos</a>
+                        </li>
+                        <li>
+                            <a href="Instalaciones.html">Instalaciones</a>
+                        </li>
+                        <li>
+                            <a href="Contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "full-img" id="fulImgBox">
+        <img src="img/img1.jpeg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+    </div>
+    <a class="Link-interno" href="#fin">Ir al final de esta pagina</a>
+    <h1><span>Galería</span></h1>
+    <div class="img-gallery">
+        <img src="img/img1.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img2.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img3.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img4.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img5.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img6.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img7.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img8.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img9.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img10.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img11.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img12.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img13.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img14.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img15.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img16.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img17.jpeg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/img18.jpeg" onclick="openFulImg(this.src)" alt="">
+        
+        
+        <a class="Link-interno" href="#logo">Ir al inicio de esta pagina</a>
+
+    </div>
+    <div id="video">
+        <video id="fin" src="img/toro.mp4" controls width="640" height="480"></video> 
+    </div>
+      
+    <div id="screen">
+    </div>
+    <script src="js/pantalla.js">                   
+    </script>
+    <script src="js/instalaciones.js">                   
+    </script>
+
+   
+   
+
+    
+</body>
+
+<footer>
+    <p>©Copyright 2050 by nobody. Fecha de ultima actualizacion 14/01/2023. Responsable del sitio: Equipo 11</p>
+  </footer>
+</html>
